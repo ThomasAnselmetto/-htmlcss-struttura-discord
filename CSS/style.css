@@ -4,8 +4,72 @@
     box-sizing: border-box;
 }
 
+section {
+    height: 300px;
+    background-color: black;
+}
 
 .container {
-    max-width: 1200px;
+    min-width: 800px;
     margin: 0 auto;
+    padding: 20px;
+}
+
+div {
+    border: 2px dashed blue;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center
+}
+
+
+header {
+    background-color: #99BECA;
+}
+
+header>.container {
+    background-color: #A98220;
+}
+
+header>div {
+    min-width: 100px;
+    min-height: 50px;
+}
+
+
+.link-list {
+    list-style: none;
+    display: flex;
+    justify-content: center
+}
+
+.main-nav {
+    flex-grow: 1;
+}
+
+.pink {
+    background-color: #EE82EE;
+    width: 500px;
+    margin: 30px auto;
+}
+
+.first-section {
+    height: 200px;
+
+}
+
+.little {
+    background-color: #FFC0CB;
+    width: 250px;
+}
+
+.big {
+    background-color: #1E7FDE;
+    width: 750px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
 }
