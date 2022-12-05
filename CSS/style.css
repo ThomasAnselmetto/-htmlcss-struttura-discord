@@ -7,9 +7,7 @@
 }
 
 /* generics */
-section {
-    background-color: black;
-}
+
 
 .container {
     width: 1000px;
@@ -18,11 +16,11 @@ section {
 }
 
 footer {
-    background-color: #232629;
+    padding-bottom: 20px;
 }
 
 div {
-    border: 2px dashed blue;
+    border: 1px dashed black;
 }
 
 .d-flex {
@@ -31,23 +29,31 @@ div {
 }
 
 
-header {
+header>div {
     background-color: #99BECA;
 }
-
-header>.container {
-    background-color: #A98220;
-}
-
 
 .link-list {
     list-style: none;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    gap: 10px;
 }
 
 .main-nav {
     flex-grow: 1;
+    background-color: #A98220;
+}
+
+.bg-alternative {
+    background-color: #D3D3D3;
+}
+
+#first-item {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 170px;
+    background-color: blue;
 }
 
 .first-section {
@@ -81,6 +87,10 @@ header>.container {
     background-color: #228B22;
 }
 
+.bg-dark {
+    background-color: #232629;
+}
+
 
 .main {
     background-color: #F08080;
@@ -106,5 +116,31 @@ header>.container {
     text-align: center;
     padding: 0;
     align-items: center;
+    ;
+}
 
+
+
+/* utility */
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+.custom:hover {
+    background-color: red;
+    color: yellow;
+}
+
+.custom {
+    height: 30px;
+    width: 60px;
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+    line-height: 1.6;
 }
