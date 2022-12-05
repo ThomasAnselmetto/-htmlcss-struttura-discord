@@ -14,7 +14,7 @@ section {
 .container {
     width: 1000px;
     margin: 0 auto;
-    padding: 20px 50px;
+    padding: 20px 170px;
 }
 
 footer {
@@ -27,7 +27,7 @@ div {
 
 .d-flex {
     display: flex;
-    align-items: center
+
 }
 
 
@@ -37,11 +37,6 @@ header {
 
 header>.container {
     background-color: #A98220;
-}
-
-header>div {
-    min-width: 100px;
-    min-height: 50px;
 }
 
 
@@ -62,18 +57,18 @@ header>div {
 }
 
 .double {
-    height: 200px;
+    height: 300px;
 
 }
 
 .little {
     background-color: #FFC0CB;
-    width: 250px;
+    width: 40%;
 }
 
 .big {
     background-color: #1E7FDE;
-    width: 750px;
+    width: 60%;
 }
 
 .reverse {
@@ -97,4 +92,19 @@ header>div {
     background-color: #1FA9A2;
     width: 25%;
     height: 300px;
+}
+
+.first-footer {
+    border-bottom: 2px solid lightgrey;
+}
+
+.second-footer {
+    width: 656px;
+    height: 70px;
+    justify-content: space-between;
+    background-color: #7FFFD4;
+    text-align: center;
+    padding: 0;
+    align-items: center;
+
 }
